@@ -1,15 +1,21 @@
-## Interface: 100100
+## Interface: 110000
 ## Title: ImprovedTalentLoadouts
 ## Version: @project-version@
 ## SavedVariables: TalentLoadoutProfilesDB, ImprovedTalentLoadoutsDB
 ## OptionalDeps: Simulationcraft
 ## X-Curse-Project-ID: 822393
 
+Libs\TaintLess\TaintLess.xml
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
 Libs\LibDeflate\LibDeflate.lua
 Libs\LibSerialize\lib.xml
 Libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
 Libs\libdatabroker-1-1\LibDataBroker-1.1.lua
+
 API.lua
 ImprovedTalentLoadouts.lua
+ImprovedTalentLoadoutsImportDialog.lua
+ImportDialog.xml
+ImprovedTalentLoadoutsCreateDialog.lua
+CreateDialog.xml
